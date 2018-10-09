@@ -3,12 +3,29 @@ package com.tom;
 public class Hello {
 
 	public static void main(String[] args) {
-		 int age = 19;
-		 short num = 18;
-		 age = num;
-		 float weight = (float) 40.5;
-		 weight = 38.7f;
-		 System.out.println (age) ; 
+		Person p = new Person(50.5f , 1.55f);
+		//p.weight = 50.5f;
+		//p.height = 1.55f;
+		System.out.println(p.bmi());
+		p.hello();
+		//Person hank = new Person();
+		//Person winnie = null;
+				//winnie.hello();
+		
+		/*System.out.println("Hello");
+		int schoolyear = 107;
+		String name = "Winnie";
+		int age = 18;
+		float height = 155.8f;
+		float weight = 50.3f;
+		System.out.println(schoolyear);
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(height);
+		System.out.println(weight);*/
+			
+			
+			
 	}
 
 }
