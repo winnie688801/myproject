@@ -3,6 +3,11 @@ package com.tom;
 public class Hello {
 
 	public static void main(String[] args) {
+		String name = "Winnie" ;
+		int english = 90;
+		int math = 88;
+		System.out.println(name + "\t" + english + "\t" + math +"\t" + (english+math)/2);
+		
 		Person p = new Person(50.5f , 1.55f);
 		//p.weight = 50.5f;
 		//p.height = 1.55f;
