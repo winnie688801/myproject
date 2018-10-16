@@ -3,10 +3,19 @@ package com.tom;
 public class Hello {
 
 	public static void main(String[] args) {
-		String name = "Winnie" ;
-		int english = 90;
-		int math = 88;
-		System.out.println(name + "\t" + english + "\t" + math +"\t" + (english+math)/2);
+		Student stu = new Student("Winnie" , 90, 80);
+		stu.print();
+		System.out.println(3 <= 6);
+		String s = new String ("abc");
+		System.out.println(s);
+		String s2 = "abc";
+		System.out.println(s == s2);
+		System.out.println(s.equals(s2));
+		
+		/*stu.name = "Winnie";
+		stu.english = 90;
+		stu.math = 85;*/
+		
 		
 		Person p = new Person(50.5f , 1.55f);
 		//p.weight = 50.5f;
