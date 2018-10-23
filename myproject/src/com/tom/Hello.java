@@ -1,8 +1,16 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your account:");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
+		
 		Student stu = new Student("Winnie" , 90, 80);
 		stu.print();
 		System.out.println(3 <= 6);
