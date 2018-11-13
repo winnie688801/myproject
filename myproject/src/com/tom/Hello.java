@@ -6,31 +6,38 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
-		int x = 3;
-		while(x >= 3){
-			System.out.println("wrong");
-			x = x - 3;
+		
+		int i = 0;
+		for(i=0; i<3 ; i++){
+			System.out.println(i);
 		}
+		System.out.println(i);
 		
-		Random random = new Random();
-		int secret = random.nextInt(100)+1;
-		System.out.println(secret);
-		System.out.println("1 to 100, Please guess the number:");
-		Scanner scanner = new Scanner(System.in);
-		int number = scanner.nextInt();
-		while(number > secret){
-			System.out.printf("the number is in the range of 0 to %i, guess the number", number);
-		}
-		while(number < secret){
-			System.out.printf("the number is in the range of %i to 100, guess the number", number);
-		}
-		
-		
-		
-		float n = 18.5f;
-		String nick = "Winnie";
-		System.out.printf("Hello, %s, your age is %.1f \n", nick , n );
-		
+//		int x = 3;
+//		while(x >= 3){
+//			System.out.println("wrong");
+//			x = x - 3;
+//		}
+//		
+//		Random random = new Random();
+//		int secret = random.nextInt(100)+1;
+//		System.out.println(secret);
+//		System.out.println("1 to 100, Please guess the number:");
+//		Scanner scanner = new Scanner(System.in);
+//		int number = scanner.nextInt();
+//		while(number > secret){
+//			System.out.printf("the number is in the range of 0 to %i, guess the number", number);
+//		}
+//		while(number < secret){
+//			System.out.printf("the number is in the range of %i to 100, guess the number", number);
+//		}
+//		
+//		
+//		
+//		float n = 18.5f;
+//		String nick = "Winnie";
+//		System.out.printf("Hello, %s, your age is %.1f \n", nick , n );
+//		
 	
 		
 //		Scanner scanner = new Scanner(System.in);
